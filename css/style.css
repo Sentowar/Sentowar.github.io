@@ -1,0 +1,69 @@
+.header{
+   display: inline-block;
+   vertical-align: top;
+   min-height: 200px;
+   width: 32%;
+   text-align: center;
+}
+
+.header_word_1{
+    margin: 40px 0 0 -60px; 
+    font-size: 32px;
+    display: block;
+}
+
+.header_word_2{
+    font-size: 32px;
+    display: block;
+}
+
+header{
+    height: 200px;
+    min-width: 620px;
+    width: 100%;
+    
+}
+
+body{
+    background: #000000 url('../img/header_sky.jpg') repeat-y;
+}
+.menu {
+    margin: 40px 0 0 0;
+    width: 100%;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+}
+
+.menu_unit{
+    display: inline-block;
+    border: 2px solid grey;
+    border-radius:4px;
+    margin: auto;
+}
+
+aside{
+    margin-top: 50px;
+    width: 200px;
+    position: fixed;
+}
+
+.sidebar_unit, .sidebar_main{
+    display: inline-block;
+    height: 40px;
+    width: 140px;
+}
+
+.sidebar_main{
+    font-size: 24px;
+    text-align: left;
+}
+
+.sidebar_unit{
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+span{
+    color: #e8e9ed;
+}
